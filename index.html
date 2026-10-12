@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پلتفرم معرفی شرکت‌ها</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <h1>تحلیلگران فجورا</h1>
+
+        <nav>
+    <a href="#home">صفحه اصلی</a>
+    <a href="#companies">شرکت‌ها</a>
+    <a href="#about">درباره ما</a>
+    <a href="#contact">تماس با ما</a>
+        </nav>
+    </header>
+
+    <div id="popupOverlay" hidden></div>
+
+
+    
+<section class="hero" id="home">
+    <h2>شرکت مناسب خودت رو پیدا کن</h2>
+
+    <p id="description">
+        با فجورا  شرکت‌ها، محصولات و خدمات کسب‌ وکارها رو پیدا و بررسی کن.
+    </p>
+
+    <button id="moreButton">
+        نمایش اطلاعات بیشتر
+    </button>
+</section>
+
+
+<section class="about" id="about">
+    <h2>درباره تحلیلگران فجورا</h2>
+
+    <p>
+        تحلیلگران فجورا بستری برای معرفی شرکت‌ها و آشنایی با محصولات،
+        خدمات و زمینه فعالیت کسب‌وکارهاست.
+    </p>
+</section>
+
+
+<section class="contact" id="contact">
+    <h2>تماس با ما</h2>
+
+    <p>
+        برای ارتباط با تحلیلگران فجورا، می‌توانید از راه‌های ارتباطی زیر استفاده کنید.
+    </p>
+
+    <p>ایمیل: info@example.com</p>
+</section>
+
+
+
+<section class="companies" id="companies">
+        <h2>شرکت‌های پیشنهادی</h2>
+
+    <div class="company-list">
+        <article class="company-card">
+            <h3>شرکت فناوری آریا</h3>
+            <p>فعال در زمینه نرم‌افزار و فناوری اطلاعات</p>
+
+            <button
+            type="button"
+            class="view-company"
+            data-name="شرکت فناوری آریا"
+            data-description="فعال در زمینه نرم‌افزار و فناوری اطلاعات">
+            مشاهده شرکت
+        </button>
+        </article>
+
+        <article class="company-card">
+            <h3>شرکت داده‌پرداز نوین</h3>
+            <p>ارائه‌دهنده خدمات داده و تحلیل اطلاعات</p>
+            
+        <button
+            type="button"
+            class="view-company"
+            data-name="شرکت داده‌پرداز نوین"
+            data-description="ارائه‌دهنده خدمات داده و تحلیل اطلاعات">
+            مشاهده شرکت
+        </button>
+
+        </article>
+
+        <article class="company-card">
+            <h3>شرکت توسعه تجارت</h3>
+            <p>فعال در زمینه خدمات بازرگانی و کسب‌وکار</p>
+            
+        <button
+            type="button"
+            class="view-company"
+            data-name="شرکت توسعه تجارت"
+            data-description="فعال در زمینه خدمات بازرگانی و کسب‌وکار">
+            مشاهده شرکت
+        </button>
+
+        </article>
+    </div>
+</section>
+
+
+
+
+
+
+<div id="companyPopup" hidden>
+    <h2 id="popupTitle">درباره پلتفرم فروز</h2>
+
+    <p id="popupDescription">
+        در فروز می‌توانید با شرکت‌ها، محصولات و خدمات آن‌ها آشنا شوید.
+    </p>
+
+    <button id="closePopup">بستن</button>
+</div>
+
+</body>
+</html>
